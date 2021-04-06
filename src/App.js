@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   function textfieldHandler(event) {
@@ -7,9 +6,8 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Emoji Interpreter</h1>
+      <h1>Emoji Interpreterlaala</h1>
       <input onChange={(event) => textfieldHandler(event)} />
-    
     </div>
   );
 }
